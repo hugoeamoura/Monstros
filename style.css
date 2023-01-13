@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    --cor-principal: darkgreen;
+    --cor-titulo: Crimson;
+    --cor-texto: #000;
+    --cor-fundo: lightgray;
+    --cor-borda: #000;
+}
+
+.dark {
+    --cor-principal: indigo;
+    --cor-titulo: Chocolate;
+    --cor-texto: darkgray;
+    --cor-fundo: black;
+    --cor-borda: FireBrick;
+}
+
+h1 {
+    color: var(--cor-titulo);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+
+button {
+    color: #fff;
+    background-color: darkred;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    font-weight: bold;
+}
+
+p{
+    color: var(--cor-texto);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container {
+    background: var(--cor-fundo);
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.3s linear;
+}
+
+img {
+    height: 490px;
+    width: 310px;
+    border-radius: 5%;
+    border: 3px solid var(--cor-borda);
+    margin: 15px;
+}
+
+section {
+    width: 400px;
+    
+}
+
+.habilidades {
+    color: var(--cor-principal);
+}
