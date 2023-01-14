@@ -85,7 +85,7 @@ const todosOsMonstros = monstros.map((monstro) => {
         <p>Nome: ${monstro.nome}</p>
         <p>Altura: ${monstro.altura} </p>
         <p class="resumo">Resumo: ${monstro.resumo}</p>
-        <img src="${monstro.foto}">
+        <img src="${monstro.foto}"/>
     </div>`
 })
 
